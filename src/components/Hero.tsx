@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { ArrowDown, GitHub, Linkedin, Twitter } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Twitter } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -34,7 +33,7 @@ const Hero = () => {
           </div>
           <div className="flex items-center space-x-6 mt-8">
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="text-gray-600 hover:text-teal transition-colors">
-              <GitHub size={20} />
+              <Github size={20} />
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="text-gray-600 hover:text-teal transition-colors">
               <Linkedin size={20} />

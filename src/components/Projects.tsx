@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { ExternalLink, GitHub } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 interface ProjectProps {
@@ -46,7 +45,7 @@ const ProjectCard = ({
         <div className="flex space-x-4">
           <Button asChild variant="outline" size="sm">
             <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2">
-              <GitHub size={16} />
+              <Github size={16} />
               <span>Code</span>
             </a>
           </Button>
@@ -115,7 +114,7 @@ const Projects = () => {
           <p className="text-gray-600 mb-6">Check out more of my projects on GitHub</p>
           <Button asChild>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 mx-auto">
-              <GitHub size={18} />
+              <Github size={18} />
               <span>View GitHub Profile</span>
             </a>
           </Button>
